@@ -1,0 +1,32 @@
+div button{
+width:  100% !important; 
+display: block !important;
+}
+#cutit{
+    display: inline !important;
+    /* width: 90% !important; */
+    
+}
+.knife_scheme{
+    width: 39.6% !important;
+    float: left;
+    text-align: right;
+}
+/* .xvost_scheme{
+    width: 39.9% !important;
+    float: right;
+    text-align: left; */
+/* } */
+.xvost_scheme svg{
+    margin-left: -30px !important;
+    width: 330px;
+}
+canvas{
+    margin-top: 200px;
+}
+body {
+    background: #505957 !important;
+}
+.container{
+    display: none;
+}
