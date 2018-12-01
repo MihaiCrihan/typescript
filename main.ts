@@ -198,25 +198,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
         document.querySelector('#buyButton').addEventListener('click', function(){
             id++;
-            // var mh = document.querySelector('.modalHelper');
-            // mh.innerHTML = `
-            //     <div class="modal" tabindex="-1" role="dialog" id="addBasket">
-            //         <div class="modal-dialog" role="document">
-            //             <div class="modal-content">
-            //                 <div class="modal-header">
-            //                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            //                         <span aria-hidden="true">&times;</span>
-            //                      </button>
-            //                 </div>
-            //                 <div class="modal-body">
-            //                     <div class="alert alert-success" role="alert">
-            //                         Добавлено в корзину!
-            //                     </div>
-            //                 </div>
-            //             </div>
-            //         </div>
-            //     </div>
-            // `;
+            var mh = document.querySelector('.modalHelper');
+            mh.innerHTML = `
+                <div class="modal" tabindex="-1" role="dialog" id="addBasket">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                 </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="alert alert-success" role="alert">
+                                    Добавлено в корзину!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
 
             
             basket.push({id : id, bladePrice : blade, handPrice : hand});

@@ -105,25 +105,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     document.querySelector('#buyButton').addEventListener('click', function () {
         id++;
-        // var mh = document.querySelector('.modalHelper');
-        // mh.innerHTML = `
-        //     <div class="modal" tabindex="-1" role="dialog" id="addBasket">
-        //         <div class="modal-dialog" role="document">
-        //             <div class="modal-content">
-        //                 <div class="modal-header">
-        //                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        //                         <span aria-hidden="true">&times;</span>
-        //                      </button>
-        //                 </div>
-        //                 <div class="modal-body">
-        //                     <div class="alert alert-success" role="alert">
-        //                         Добавлено в корзину!
-        //                     </div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // `;
+        var mh = document.querySelector('.modalHelper');
+        mh.innerHTML = "\n                <div class=\"modal\" tabindex=\"-1\" role=\"dialog\" id=\"addBasket\">\n                    <div class=\"modal-dialog\" role=\"document\">\n                        <div class=\"modal-content\">\n                            <div class=\"modal-header\">\n                                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                                    <span aria-hidden=\"true\">&times;</span>\n                                 </button>\n                            </div>\n                            <div class=\"modal-body\">\n                                <div class=\"alert alert-success\" role=\"alert\">\n                                    \u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E \u0432 \u043A\u043E\u0440\u0437\u0438\u043D\u0443!\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            ";
         basket.push({ id: id, bladePrice: blade, handPrice: hand });
         console.log(basket);
         // console.log('BASKET' + basket);
