@@ -17,7 +17,18 @@ display: block !important;
     float: right;
     text-align: left; */
 /* } */
+
+.knife_scheme svg{
+    /* z-index: 2; */
+    /* width: 39.6% !important; */
+    /* float: left; */
+    /* margin-left: -80px; */
+    /* position: fixed; */
+}
+
 .xvost_scheme svg{
+    /* z-index: 2; */
+    /* position: fixed; */
     margin-left: -30px !important;
     width: 330px;
 }
@@ -30,3 +41,20 @@ body {
 .container{
     display: none;
 }
+
+.generalButtons{
+    text-align: center;
+}
+
+#buyButton{
+    position: absolute;
+    top: 70% !important;
+    z-index: 2 !important;
+    width: 100px !important;
+    left: 45%;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
